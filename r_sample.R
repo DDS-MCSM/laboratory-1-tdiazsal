@@ -1,5 +1,5 @@
 # SAMPLE R FUNCTION
-# Test
+
 hasIPformat <- function(ip) {
   b <- as.logical(length(grep("^\\d{1,3}.\\d{1,3}.\\d{1,3}.\\d{1,3}$", x = ip)))
   if (b == TRUE) {
